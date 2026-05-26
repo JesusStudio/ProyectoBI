@@ -40,3 +40,6 @@ CREATE TABLE Recoleccion (
   num_quejas      INT,
   distancia_km    DECIMAL(6,1)
 );
+
+
+
