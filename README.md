@@ -14,49 +14,6 @@ El proyecto integra:
 📊 Dashboard ejecutivo en Power BI
 🤖 Modelos predictivos en Python
 
-El objetivo es transformar datos operativos en información útil para la toma de decisiones.
-
-🧱 Arquitectura del Proyecto
-PROYECTOBI/
-│
-├── Backend/
-│   └── conexion_sqlserver.py
-│
-├── BD_Scripts/
-│   ├── 01_crear_bd_oltp.sql
-│   ├── 02_crear_datamart.sql
-│   ├── 03_etl_cursores.sql
-│   └── 04_insert_datos_simulados.sql
-│
-├── Clase_BD/
-│   ├── datamart_modelo.py
-│   ├── datos_simulados.py
-│   ├── etl.py
-│   └── oltp_modelo.py
-│
-├── Frontend/
-│   ├── Dashboard.png
-│   ├── Proyecto.pbit
-│   └── Proyecto.pbix
-│
-├── PYTHON/
-│   ├── prediccion_quejas.py
-│   ├── prediccion_saturacion.py
-│   └── prediccion_toneladas.py
-│
-└── README.md
-🚀 Tecnologías Utilizadas
-Tecnología	Uso
-Python	ETL y modelos predictivos
-SQL Server	Base de datos OLTP y DataMart
-Power BI	Visualización y dashboards
-Pandas	Manipulación de datos
-Scikit-Learn	Predicciones
-Matplotlib / Seaborn	Visualización
-SQL	Consultas y procesos ETL
-🗄️ Componentes del Proyecto
-1️⃣ Base de Datos OLTP
-
 Archivo:
 
 BD_Scripts/01_crear_bd_oltp.sql
